@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet" />
+		<link rel="icon" href="images/hero/logo.svg" />
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="site-header__container container">
+				<a class="site-header__title-wrapper" href="index.html">
+					<img class="site-header__logo" src="images/header/logo.svg" alt="" />
+					<h2 class="site-header__title">Marico</h2>
+				</a>
+
+				<ul class="site-header__list">
+					<li class="site-header__item">
+						<a class="site-header__item-link" href="#">Use Cases</a>
+					</li>
+
+					<li class="site-header__item-arrow">
+						<a class="site-header__arrow" href="#"
+							><img class="site-header__arrow-img" src="images/header/down_arrow.svg" alt="down_arrow"
+						/></a>
+					</li>
+					<li class="site-header__item">
+						<a class="site-header__item-link" href="about-us.html">About</a>
+					</li>
+					<li class="site-header__item">
+						<a class="site-header__item-link" href="pricing.html"><span>Pricing</span></a>
+					</li>
+					<li class="site-header__item">
+						<a class="site-header__item-link" href="blog.html">Blog</a>
+					</li>
+				</ul>
+
+				<div class="site-header__login">
+					<a class="site-header__link">Login</a>
+					<a href="/" class="btn">Sign Up</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="main__content">
+			<section class="sign">
+				<div class="container">
+					<div class="sign__top">
+						<h2 class="sign__top-title">Sign up</h2>
+						<p class="sign__top-text">Fill all field for create an account.</p>
+					</div>
+					<form class="form" action="https://echo.htmlacademy.ru">
+						<div class="from__input-wrapper from__input-wrapper2">
+							<input id="input12" name="Username" id="Username" type="text" required placeholder="Username" />
+							<img src="images/form/User.svg" alt="User" width="25.3077392578125" height="30.30853271484375" />
+						</div>
+						<div class="from__input-wrapper from__input-wrapper2">
+							<input id="input" name="Email Address" id="Email Address" type="email" required placeholder="Email Address" />
+							<img src="images/form/At_sign.svg" alt="sign" width="30.31005859375" height="30.30999755859375" />
+						</div>
+						<div class="from__input-wrapper from__input-wrapper3">
+							<input id="input2" name="Password" id="Password" type="password" required placeholder="Password" />
+							<img src="images/form/Eye.svg" alt="eye" width="33" height="24.000732421875" />
+						</div>
+						<button type="submit" class="sign__btn">Sign Up</button>
+					</form>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<div class="sign__info">
+						<h2 class="sign__info-title">Or</h2>
+						<p class="sign__info-text">Sign up with...</p>
+					</div>
+					<ul class="sign__list">
+						<li class="sign__item">
+							<a class="sign__link" href="https://facebook.com" target="_blank">
+								<img src="images/form/facebook.svg" alt="facebook" />
+								<p>Sign up with Facebook</p>
+							</a>
+						</li>
+						<li class="sign__item">
+							<a class="sign__link" href="https://google.com" target="_blank">
+								<img src="images/form/G_logo.svg" alt="google" />
+								<p>Sign up with Google</p>
+							</a>
+						</li>
+						<li class="sign__item">
+							<a class="sign__link" href="https://www.apple.com/apple-events/event-stream/" target="_blank">
+								<img src="images/form/Apple.svg" alt="Apple" />
+								<p>Sign up with Apple</p>
+							</a>
+						</li>
+					</ul>
+
+					<div class="sign__bottom">
+						<a class="sign__bottom-link" href="log-in.html">Already have an account? Please Log in.</a>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
